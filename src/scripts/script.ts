@@ -270,3 +270,7 @@ $(window.document.documentElement).on('blur', 'input:not(.no-trim)', function(e)
     this.value = this.value.trim();
     this.value = this.value.replace(/\s+/g, ' ');
 });
+$(window.document.documentElement).on('click', '.js-go-back', function(e) {
+    e.preventDefault();
+    window.history.back();
+});
