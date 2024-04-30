@@ -20,6 +20,7 @@
         color: colors.$fg-default;
         text-align: center;
         position: relative;
+        cursor: pointer;
         transition: background-color .2s, color .2s;
         &:hover,
         &:focus {
