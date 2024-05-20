@@ -78,3 +78,7 @@ $_hovercolor: hsla(40, 0%, 50%, 15%);
         }
     }
 }
+
+tr:target {
+    background-color: #f5b40038;
+}
