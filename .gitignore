@@ -1,3 +1,14 @@
 node_modules/
-dist/
+
+/dist/*
+!/dist/style.min.css
+!/dist/fonts
+/dist/fonts/*
+!/dist/fonts/websymbols
+/dist/fonts/websymbols/*
+!/dist/fonts/websymbols/*.ttf
+!/dist/fonts/websymbols/*.eot
+!/dist/fonts/websymbols/*.woff
+!/dist/fonts/websymbols/*.svg
+
 .DS_Store
